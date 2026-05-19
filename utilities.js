@@ -4,6 +4,8 @@ function add(i, j)
     return i + j
 }
 
+console.log(i + j);
+
 function abs(n) {
     if (n > 0);
 }
