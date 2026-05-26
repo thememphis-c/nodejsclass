@@ -1,7 +1,7 @@
 *.png
 *.svg
 *.docx
-node_modules
+
 profile.docx
 images
 
