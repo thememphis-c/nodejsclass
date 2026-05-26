@@ -4,12 +4,14 @@
 // of recursion                                 
 
 // Write a javaScript code to reverse your name
+
 let name = "Courage";
 let reversedName = name.split("").reverse().join("");
 
 console.log(reversedName);
 
 // write a javaScript code to change the value of an array
+
 let fruits = ["apple", "orange", "banana"];
 fruits [1] = "watermelon";
 
