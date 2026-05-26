@@ -25,11 +25,11 @@ console.log(man);
 //.Write a javaScript code to find the factorials of a number using the consept
 // of recursion  
 
-function factorial(n) {
-    if (n === 1) {
+function factorial(p) {
+    if (p === 1) {
         return 1;
     }
-    return n * factorial(n - 1);
+    return p * factorial(p - 1);
 }
 
 console.log(factorial(5));
