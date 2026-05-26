@@ -1,17 +1,15 @@
-
-
+// Write a javaScript code to reverse your name
+// write a javaScript code to change the value of an array
 // Write a javaScript code to find the factorials of a number using the consept
 // of recursion                                 
 
-// Write a javaScript code to reverse your name
-
+//1
 let name = "Courage";
 let reversedName = name.split("").reverse().join("");
 
 console.log(reversedName);
 
-// write a javaScript code to change the value of an array
-
+//2
 let fruits = ["Apple", "Orange", "Banana"];
 fruits [1] = "watermelon";
 
@@ -22,9 +20,7 @@ man [2]= "Healthy";
 
 console.log(man);
 
-//.Write a javaScript code to find the factorials of a number using the consept
-// of recursion  
-
+//3
 function factorial(p) {
     if (p === 1) {
         return 1;
